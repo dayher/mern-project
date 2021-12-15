@@ -1,0 +1,11 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "New Mongo-Express-React-Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dayher Marchan",
+  "license": "ISC"
+}
