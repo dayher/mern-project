@@ -5,7 +5,7 @@ require("dotenv").config({ path: "./config.env" });
 const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
-app.use(require("./routes/record")); // agregar este directorio y establecer las rutas
+app.use("/api/v1/posts", require("./routes"));
 
 // setting routes
 
